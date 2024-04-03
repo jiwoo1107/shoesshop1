@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.slider {
+  height: 500px;
+  background-image: url('../public/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.start {
+  transform: scale(0) translateX(-100px);
+}
+
+.end {
+  transform: scale(1) translateX(0);
+  transition: all 0.5s;
+}
